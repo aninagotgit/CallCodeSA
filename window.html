@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CallCodeSA Lookup</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      padding: 20px;
+      width: 280px;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      border-color: #4CAF50;
+      outline: none;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #43a047;
+    }
+
+    #result {
+      margin-top: 10px;
+      padding: 8px;
+      background-color: #f1f8e9;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 14px;
+      color: #2e7d32;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <h2>South Africa Dial Code Lookup</h2>
+  <form id="lookupForm">
+    <input type="text" id="phoneInput" placeholder="Enter phone number" required/>
+    <button type="submit">Lookup</button>
+  </form>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
