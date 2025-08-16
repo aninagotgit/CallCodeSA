@@ -10,4 +10,4 @@ Install the CallCodeSA Chrome plugin to:
 - 📌 Pin the extension for quick access
 - ▶️ More features to come
 
-👉 [Download from the Chrome Web Store](TODO ADD)
+👉 [Download from the Chrome Web Store](https://chromewebstore.google.com/detail/emlpgccglhjjeegahjmjbjpgjojabofo?utm_source=item-share-cb)
